@@ -36,6 +36,10 @@ import General_physician from './General_physician.svg'
 import Gynecologist from './Gynecologist.svg'
 import Neurologist from './Neurologist.svg'
 import Pediatricians from './Pediatricians.svg'
+import logo1 from './logo1.png'
+import header_sidelogo from './header_sidelogo.png'
+import logo_cartoon1 from './logo_cartoon1.png'
+import myprofilelogo from './myprofilelogo.png'
 
 
 export const assets = {
@@ -55,7 +59,11 @@ export const assets = {
     dropdown_icon,
     upload_icon,
     stripe_logo,
-    razorpay_logo
+    razorpay_logo,
+    logo1,
+    header_sidelogo,
+    logo_cartoon1,
+    myprofilelogo
 }
 
 export const specialityData = [
@@ -94,7 +102,7 @@ export const doctors = [
         degree: 'MBBS',
         experience: '4 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        fees: 500,
         address: {
             line1: '17th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
